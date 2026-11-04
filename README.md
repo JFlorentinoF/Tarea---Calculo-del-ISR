@@ -31,7 +31,7 @@ Este programa en C++ permite calcular el descuento mensual correspondiente al Im
 
 ### Prueba 1: Salario sin aplicación de ISR
 
-![Captura de la prueba 1](Prueba1.png)
+![escenario 1](https://github.com/JFlorentinoF/Tarea---Calculo-del-ISR/blob/8355976eca2da45165e292868ff30099ba6d3491/Screenshot%202026-11-04%20113939.png)
 
 ### Prueba 2: Salario con aplicación de ISR
 
