@@ -1,5 +1,5 @@
 # Tarea - Calculo del ISR
-1. Datos del integrante
+## 1. Datos del integrante
 
 Nombre: Jordany Florentino Franco
 
