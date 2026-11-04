@@ -1,11 +1,11 @@
 # Tarea - Calculo del ISR
-## 1. Datos del integrante
+## 1. Datos del estudiante
 
 Nombre: Jordany Florentino Franco
 
 Matrícula: 2025-2608
 
-2. Descripción breve del programa
+## 2. Descripción breve del programa
 
 Programa desarrollado en C++ que permite calcular el descuento mensual del Impuesto Sobre la Renta (ISR), tomando como referencia el salario bruto mensual del usuario y las deducciones correspondientes a la TSS.
 
