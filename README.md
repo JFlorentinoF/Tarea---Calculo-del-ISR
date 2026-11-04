@@ -39,7 +39,7 @@ Este programa en C++ permite calcular el descuento mensual correspondiente al Im
 
 ### Prueba 3: Otro salario con la aplicación del ISR
 
-![escenario 3]()
+![escenario 3](https://github.com/JFlorentinoF/Tarea---Calculo-del-ISR/blob/1418a3e378d90cdfec8260d4a3c36a095b2883bc/Screenshot%202026-11-04%20130530.png)
 
 ### Prueba 4: Para rentas mayores que 867,123.01.
 
