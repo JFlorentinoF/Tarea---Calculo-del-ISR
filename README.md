@@ -1,50 +1,50 @@
-# Tarea - Calculo del ISR
+# Programa: Calculadora del Impuesto Sobre la Renta (ISR)
+
 ## 1. Datos del estudiante
 
-Nombre: Jordany Florentino Franco
-
-Matrícula: 2025-2608
+- **Nombre completo:** Jordany Florentino Franco
+- **Matrícula:** 2025-2608
 
 ## 2. Descripción breve del programa
 
-Programa desarrollado en C++ que permite calcular el descuento mensual del Impuesto Sobre la Renta (ISR), tomando como referencia el salario bruto mensual del usuario y las deducciones correspondientes a la TSS.
+Este programa en C++ permite calcular el descuento mensual correspondiente al Impuesto Sobre la Renta (ISR) a partir del salario bruto mensual del usuario. Para realizar el cálculo, descuenta el 5.91% correspondiente a la TSS, determina la renta neta anual y aplica la escala del ISR según el rango de ingresos. Finalmente, muestra el salario bruto y el descuento mensual correspondiente.
 
-3. Datos de entrada
+## 3. Datos de entrada
 
-Salario bruto mensual introducido por el usuario.
+- **Salario bruto mensual:** Número decimal que representa el salario mensual del usuario antes de aplicar las deducciones.
 
-4. Datos que procesa
+## 4. Datos que procesa
 
-Descuento del 5.91% correspondiente a la TSS.
+- Calcula el 5.91% del salario bruto correspondiente a las deducciones de la TSS (2.87% AFP y 3.04% SFS).
+- Resta las deducciones al salario bruto para obtener el sueldo neto gravable mensual.
+- Multiplica el sueldo neto gravable por 12 para obtener la renta neta anual.
+- Comprueba en cuál de los cuatro rangos establecidos se encuentra la renta neta anual.
+- Calcula el ISR anual aplicando el porcentaje correspondiente (15%, 20% o 25%), según el rango.
+- Divide el ISR anual entre 12 para obtener el descuento mensual.
 
-Cálculo del sueldo neto gravable mensual.
+## 5. Datos de salida
 
-Cálculo de la renta neta anual.
+- **Salario bruto mensual:** Muestra el salario introducido por el usuario.
+- **Descuento mensual de ISR:** Muestra el monto que corresponde descontar mensualmente por concepto de ISR. Si no aplica, muestra RD$0.00.
 
-Aplicación de las escalas del ISR mediante condiciones.
+## Capturas del programa en ejecución
 
-Cálculo del ISR anual y su equivalente mensual.
+### Prueba 1: Salario sin aplicación de ISR
 
-5. Datos de salida
+![Captura de la prueba 1](Prueba1.png)
 
-Salario bruto mensual.
+### Prueba 2: Salario con aplicación de ISR
 
-Descuento mensual correspondiente al ISR.
+![Captura de la prueba 2](Prueba2.png)
 
-Resultados expresados en pesos dominicanos (RD$) con dos decimales.
+## 6. Estructuras utilizadas y su función
 
-6. Captura de pantalla del programa en ejecución
+- **Variables de tipo `double`:** Se utilizan para almacenar el salario bruto, las deducciones, la renta neta anual y los resultados de los cálculos, permitiendo trabajar con números decimales.
 
-Insertar aquí una captura de pantalla donde se observe únicamente la ventana de ejecución del programa y sus resultados.
+- **Estructura condicional `if`, `else if` y `else`:** Permite comparar la renta neta anual con los diferentes rangos del ISR y determinar el impuesto que corresponde pagar según los ingresos del usuario.
 
-7. Estructuras utilizadas y sus funciones
+- **Estructura secuencial:** Permite ejecutar las instrucciones en orden: solicitar el salario, calcular las deducciones, determinar la renta anual, calcular el ISR y mostrar los resultados.
 
-Variables de tipo double: Las utilicé para almacenar los salarios, porcentajes y resultados de los cálculos, ya que pueden contener valores decimales.
+- **Librería `iostream`:** Se utiliza para solicitar información al usuario mediante `cin` y mostrar los resultados mediante `cout`.
 
-cin y cout: Utilicé cin para recibir el salario bruto del usuario y cout para mostrar los mensajes y resultados en pantalla.
-
-Estructura condicional if, else if y else: La utilicé para comparar la renta neta anual con los diferentes rangos del ISR y determinar qué porcentaje de impuesto corresponde aplicar.
-
-Operadores aritméticos: Los utilicé para realizar las operaciones de descuento, resta, multiplicación y división necesarias para calcular el impuesto.
-
-Librería iomanip: La utilicé junto con fixed y setprecision(2) para presentar los resultados con dos cifras decimales.
+- **Librería `iomanip`:** Se utiliza junto con `fixed` y `setprecision(2)` para mostrar los resultados con dos cifras decimales.
